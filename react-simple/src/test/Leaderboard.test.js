@@ -6,5 +6,6 @@ describe('<Leaderboard />', () => {
   test('renders basic elements', () => {
     const wrapper = shallow(<Leaderboard />);
     expect(wrapper.find('Header')).toHaveLength(1);
+    expect(wrapper.find('MatchSummary')).toHaveLength(1);
   });
 })
