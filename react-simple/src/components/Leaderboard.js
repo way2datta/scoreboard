@@ -6,12 +6,12 @@ import Tabs from "./Tabs";
 
 const Leaderboard = () => {
   return (
-    <>
+    <div className="container">
       <Header />
       <MatchSummary />
       <FeaturedSection />
       <Tabs/>
-    </>
+    </div>
   );
 };
 export default Leaderboard;
