@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Message from './components/Message'
+import Leaderboard from './components/Leaderboard'
 import './styles/App.scss'
 
 ReactDOM.render(
-  <Message />,
+  <Leaderboard />,
   document.getElementById('react-container') // eslint-disable-line no-undef
 )
 // Needed for Hot Module Replacement
