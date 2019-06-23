@@ -7,5 +7,6 @@ describe('<Leaderboard />', () => {
     const wrapper = shallow(<Leaderboard />);
     expect(wrapper.find('Header')).toHaveLength(1);
     expect(wrapper.find('MatchSummary')).toHaveLength(1);
+    expect(wrapper.find('FeaturedSection')).toHaveLength(1);
   });
 })
