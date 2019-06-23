@@ -11,7 +11,7 @@
     "build": "npm run clean && webpack --mode production --config webpack.server.config.js && webpack --mode production --config webpack.prod.config.js",
     "start": "node ./dist/server.js",
     "start-dev": "npm run buildDev && npm run start",
-    "start-prod": "npm run buildDev && npm run start"
+    "start-prod": "npm run build && npm run start"
   },
   "jest": {
     "moduleNameMapper": {
