@@ -1,8 +1,9 @@
 import React from "react";
+import Header from "./Header";
 const Leaderboard = () => {
   return (
     <>
-     <h1>ICC World Cup 2019</h1>
+     <Header />
      <div>Team score summary</div>
      <div>Match outcome</div>
      <div>Featured section</div>
