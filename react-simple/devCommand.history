@@ -15,3 +15,5 @@ npm install --save-dev eslint babel-eslint eslint-loader
 npm install --save-dev eslint-plugin-react
 npm install --save react react-dom
 npm install --save-dev @babel-preset-react
+npm install --save-dev sass-loader
+npm install --save-dev node-sass

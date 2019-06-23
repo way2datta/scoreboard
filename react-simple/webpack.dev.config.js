@@ -43,8 +43,8 @@ module.exports = {
         ]
       },
       { 
-        test: /\.css$/,
-        use: [ 'style-loader', 'css-loader' ]
+        test:/\.(s*)css$/,
+        use:['style-loader','css-loader', 'sass-loader']
       },
       {
        test: /\.(png|svg|jpg|gif)$/,
@@ -54,7 +54,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebPackPlugin({
-      template: "./src/html/index.html",
+      template: "./src/index.html",
       filename: "./index.html",
       excludeChunks: [ 'server' ]
     }),

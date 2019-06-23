@@ -1,9 +1,6 @@
 import React from 'react'
-import Enzyme, { shallow, mount, render } from 'enzyme'
-import Message from './../js/Message';
-import Adapter from 'enzyme-adapter-react-16';
-
-// Enzyme.configure({ adapter: new Adapter() })
+import { shallow } from 'enzyme'
+import Message from './../components/Message';
 
 describe('<Message />', () => {
   test('renders a single <p> tag', () => {
